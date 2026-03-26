@@ -1,0 +1,72 @@
+name: mineviewer
+description: Free, open-source Bitcoin miner monitoring for your local network.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.11.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^3.0.0
+  riverpod_annotation: ^3.0.0
+
+  # Navigation
+  go_router: ^15.0.0
+
+  # Database
+  drift: ^2.22.0
+  drift_flutter: ^0.2.0
+  sqlite3_flutter_libs: ^0.5.0
+
+  # Networking
+  dio: ^5.7.0
+
+  # Charts
+  fl_chart: ^0.70.0
+
+  # Notifications
+  flutter_local_notifications: ^18.0.0
+
+  # Network discovery
+  lan_scanner: ^4.0.0
+  network_info_plus: ^6.0.0
+
+  # Models
+  freezed_annotation: ^3.0.0
+  json_annotation: ^4.9.0
+
+  # PDF export
+  pdf: ^3.11.0
+  printing: ^5.13.0
+
+  # CSV export
+  csv: ^6.0.0
+
+  # Utils
+  uuid: ^4.5.0
+  intl: ^0.20.0
+  path_provider: ^2.1.0
+  share_plus: ^10.0.0
+  url_launcher: ^6.3.0
+  package_info_plus: ^8.1.0
+  logging: ^1.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.4.0
+  drift_dev: ^2.22.0
+  riverpod_generator: ^3.0.0
+  freezed: ^3.0.0
+  json_serializable: ^6.8.0
+  mocktail: ^1.0.0
+
+flutter:
+  uses-material-design: true
