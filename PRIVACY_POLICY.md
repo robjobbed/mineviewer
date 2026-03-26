@@ -47,4 +47,4 @@ If we make changes to this privacy policy, we will update the "Last updated" dat
 
 ## Contact
 
-If you have questions about this privacy policy, please open an issue on our GitHub repository or contact us at privacy@mineviewer.app.
+If you have questions about this privacy policy, please open an issue on our GitHub repository at https://github.com/robjobbed/mineviewer/issues.
